@@ -1,0 +1,90 @@
+header{
+    
+    height:100vh;
+    background-color:skyblue;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+
+body{
+    
+    font-family: Trebuchet MS;
+    font-size: 20px;
+}
+.buttonsize{
+    margin: 10px;
+    height: 39px;
+    width:120px;
+    border:none;
+    border-radius: 14px;
+    cursor: pointer;
+    
+}
+.buttonsize:hover{
+    background-color:steelblue;
+}
+.submitbutton{
+    height: 39px;
+    width:120px;
+    border:none;
+    border-radius: 14px;
+    background-color:skyblue;
+}
+.submitbutton:hover{
+    background-color: rgb(81, 157, 188);
+
+}
+header h1{
+    color:black;
+    text-align: center;
+}
+h1{
+    font-size: 2rem;
+    color:rgb(81, 157, 188);
+}
+section{
+    height:120vh;
+    border: 1px solid grey;
+    padding: 8px;
+    border-radius: 20px;
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+main{
+    padding: 10px;
+    
+}
+input{
+    border: 2px solid lightslategray;
+    height:15px;
+}
+
+form div{
+    margin: 7px 0px;
+}
+footer{
+    height:124px;
+    background-color: black;
+    color:grey;
+    height: 124px;
+
+}
+.fixedbutton{
+    position: fixed;
+    bottom:15px;
+    right:12px;
+    height:50px;
+    width: 48px;
+    border:none;
+    border-radius: 50%;
+    background-color: steelblue;
+    
+}
